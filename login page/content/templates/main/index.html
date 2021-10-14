@@ -1,0 +1,28 @@
+{% extends 'layouts/default/page.html' %}
+
+<!--{% load static %}
+
+{% load bootstrap4 %}
+
+{% load i18n %}-->
+
+{% block content %}
+        <div class="login-page">
+          <div class="form">
+         <h2>Upload</h2>
+          <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" name="document">
+            <button type="submit" name = "run_script">Upload file</button>
+          </form>
+    
+        <h2>Create</h2>
+          <form method="post" enctype="multipart/form-data">
+            <button type="submit">Create file</button>
+          </form>
+    
+          </div>
+        </div>
+
+{% endblock %}
+
