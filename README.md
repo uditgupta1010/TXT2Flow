@@ -1,2 +1,3 @@
 # TXT2Flow
- Convert Pseudocode to Flowchart
+Objective
+Objective is to convert Convert Pseudocode to Flowchart in order to easily understand the algorithm of the pseudocode
